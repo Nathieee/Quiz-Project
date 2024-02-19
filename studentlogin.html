@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Login</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body class="body">
+    <header> 
+        <nav>
+            <a href="landingPage.html"> <h1>Lumen <span> et Veritas</span></h1></a>
+            <div class="right">
+                <a href="#"><h3>About</h3></a>
+                <a href="#"><h3>Community</h3></a>            
+                <a href="#"><h3>Contact</h3></a>
+                <a href="schoolRegister.html"><button id="navRegister_schl">Register Your School</button></a>
+                <a href="studentRegister.html"><button id="navRegister_candidate">Register Candidate</button></a>
+                <a href="studentlogin.html"><button id="navLogin">Login</button></a>
+            </div>
+        </nav>
+    </header>
+    <div class="studentLogin_formArea">
+        <form class="studentLogin_Form" id="studentLogin_Form">
+            <!-- <img src="./images/logo option 2.jpeg" alt=""> -->
+            <h2>LOGIN</h2>             
+            <div class="field">
+                <label>Email</label>
+                <input name="Email" type="text" class="input_field" id="email">
+                <span></span>
+            </div>
+            <div class="field">
+                <label>Password</label>
+                <input name="Password" type="password" class="input_field" id="password">
+                <span></span>
+            </div>
+            <div class="buttondiv">
+                <button type="button" id="login_Btn">login</button>
+            </div>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span class="close">&times;</span>
+                    <p id="modalText">User data not found!</p>
+                </div>
+            </div>
+        </form>
+    </div>
+    
+</body>
+<script src="studentLogin.js"></script>
+
+</html>

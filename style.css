@@ -1,0 +1,457 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    /* max-width: 1440px; */
+    margin: auto;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: whitesmoke;
+    box-shadow: 3px 1px 10px 0;
+    margin-bottom: 7px;
+}
+nav .right{
+    display: flex;
+    padding-left: 20px;
+}
+nav .right a{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 10px;
+    color: navy;
+}
+nav .right a:hover{ 
+    color: red;    
+}
+nav h1{
+    font-size: 50px;
+    padding-left: 10px;
+    color: navy;
+}
+nav span{
+    font-style: italic;
+    color: red;
+}
+nav button{
+    padding: 10px 15px;
+    color: white;
+    font-size: 17px;
+    border: none;
+    border-radius: 7px;
+}
+#navRegister_schl{
+    background-color: red;
+}
+#navRegister_candidate,
+#navStart_Quiz{
+    background-color: navy;
+}
+#navLogin,
+#navLogout{
+    color: navy;
+    border: 1px solid navy;
+    background-color: whitesmoke;
+}
+.schoolRegisterDiv{
+    background-image: url(./images/education-day-arrangement-table-with-copy-space_23-2148721266.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+}
+.schoolRegisterDiv h1{
+    font-size: 70px;
+    color: navy;
+    padding-top: 70px;
+    text-align: center;
+}
+.schoolRegister_Form{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    align-items: center;  
+    justify-content: center;
+    margin: auto;
+}
+.schoolRegister_Form .field{
+    /* margin: 30px 10px 0 10px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.schoolRegister_Form label{
+    font-size: 40px;
+}
+.schoolRegister_Form span{
+    font-size: 18px;
+    font-style: italic;
+    color: yellow;
+    margin-bottom: 30px;
+}
+.schoolRegister_Form input{
+    width: 600px;
+    padding: 15px 0;
+    margin: 10px 0;
+    text-align: center;
+    font-size: 20px;
+}
+#registerSchoolBtn{
+    padding: 15px 35px;
+    color: yellow;
+    background-color:navy;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+}
+
+.studentRegistration_formArea{
+    background-image: url(./images/education-day-arrangement-table-with-copy-space_23-2148721266.avif);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studentRegistration_Form{
+    width: 500px;
+    height: 750px;
+    background-color: whitesmoke;
+    
+}
+.studentRegistration_Form h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0;
+}
+.studentRegistration_Form .field{
+    margin: 20px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.studentRegistration_Form span{
+    font-size: 18px;
+    font-style: italic;
+    color: red;
+}
+.studentRegistration_Form label{
+    font-size: 17px;
+}
+.studentRegistration_Form input,
+.studentRegistration_Form select{
+    padding: 10px 0;
+    border: 1px solid navy;
+    border-radius: 3px;
+}
+.studentRegistration_Form option{
+   color: black;
+}
+#createUser_Btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: navy;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 50px;
+}
+.studentRegistration_Form p{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.studentRegistration_Form a{
+    color: red;
+}
+
+
+
+
+
+
+
+
+
+.studentLogin_formArea{
+    background-image: url(./images/education-day-arrangement-table-with-copy-space_23-2148721266.avif);
+    /* background-image: url(./images/back-school-blackboard-with-chalk-drawings-copy-space-horizontal-banner_687448-24.avif); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.studentLogin_Form{
+    width: 400px;
+    height: 500px;
+    border-radius: 5px;
+    background-color: whitesmoke;
+    
+}
+.studentLogin_Form h2{
+    font-size: 40px;
+    text-align: center;
+    margin: 50px 0;
+}
+.studentLogin_Form .field{
+    margin: 45px 10px 0 10px;
+    display: flex;
+    flex-direction: column;
+}
+.studentLogin_Form label{
+    font-size: 17px;
+}
+.studentLogin_Form span{
+    font-size: 18px;
+    font-style: italic;
+    color: red;
+}
+.studentLogin_Form input{
+    padding: 10px 0;
+    border: 1px solid navy;
+    border-radius: 3px;
+    margin-top: 10px;
+}
+#login_Btn{
+    padding: 10px 20px;
+    color: white;
+    background-color: navy;
+    font-size: 20px;
+    border: none;
+    border-radius: 7px;
+    margin-left: 10px;
+    margin-top: 80px;
+}
+
+
+
+/* LANDING PAGE BANNER */
+.landingBanner{  
+      
+    width: 100%;
+    height: 800px;
+}
+.landingBanner img{
+    width: 100%;
+    height: 100%;
+}
+.landingBanner .bannertext{
+    width: 60%;
+    position: absolute;
+    top: 250px;
+    left: 50px;
+}
+.landingBanner h2{
+    font-size: 60px;
+}
+.landingBanner span{
+    color: red;
+}
+.landingBanner h1{
+    font-size: 60px;
+    color: navy;
+    margin-top: 20px;
+}
+.landingBanner h4{
+    font-size: 20px;
+    color: navy;
+    margin-top: 50px;
+}
+
+.homeCountDown{
+    width: 80%;    
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.homeCountDown h2{
+    font-size: 60px;
+}
+.homeCountDown span{
+    color: red;
+}
+.homeCountDown h1{
+    font-size: 60px;
+    color: navy;
+    margin-top: 20px;
+}
+
+
+
+
+
+.quizPage{
+    width: 100%;
+    height: 800px;
+    display: flex;
+}
+.quiz_image{
+    width: 50%;
+    height: 100%;
+    scale: 1.0;
+}
+.quiz_image img{
+    width: 100%;
+    height: 100%;
+}
+.quiz_area{
+    width: 50%;
+    height: 100%;
+    /* background-color: aqua; */
+}
+
+.quiz_area h2{
+    font-size: 30px;
+    margin-top: 30px;
+    margin-left: 20px;
+    margin-right: 20px;
+    text-align: center;
+}
+.quiz_area .timeDiv{
+    width: 40%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* border-radius: 10px; */
+    color: white;
+    background-color: blue;
+}
+.quiz_area .options{
+    height: 55px;
+    width: 80%;
+    margin: auto;
+    margin-top: 40px;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+.nav_options{
+    width: 90%;
+    margin: auto;
+}
+.nav_options h3{
+    font-size: 45px;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+.nav_options p{
+    font-size: 20px;
+    text-align: left;
+    margin-top: 10px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.modal {
+    display: none;
+    /* display: block; */
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+  }
+  
+  .modal-content {
+    background-color: gainsboro;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    color: black;
+    width: 500px;
+    height: 200px;
+   
+  }
+  .modal-content p{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+  }
+  
+  .close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+  }
+  
+  .close:hover,
+  .close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="#"> <h1>Lumen <span> et Veritas</span></h1></a>
+            <div class="right">
+                <a href="#aboutContent"><h3>About</h3></a>
+                <a href="#servicesContent"><h3>Services</h3></a>            
+                <a href="#"><h3>Contact</h3></a>                
+                <!-- <a href="quiz.html"><button id="navStart_Quiz">Start Quiz</button></a> -->
+                <a href="studentlogin.html"><button id="navLogout">Log Out</button></a>
+            </div>
+        </nav>
+    </header>
+    <main>        
+        <div class="quiz_modal" id="quiz_modal">
+
+        </div>
+        <div class="quizPage">
+            <div class="quiz_image">
+                <img src="./images/guy-thinking.png" alt="">
+                <img src="./images/svg1.png" alt="">
+            </div>
+            <div class="quiz_area">
+                <div class="timeDiv">
+                    <h1 id="countdown_Timer"> 2 : 00</h1>
+                </div>
+                <h2 class="displyQuestion" id="displyQuestion"></h2>
+                <a href="#" class="clickable">
+                    <div class="options">
+                        <p id="option1"></p>
+                    </div>
+                </a>
+                <a href="#" class="clickable">
+                    <div class="options">
+                        <p id="option2"></p>
+                    </div>
+                </a>
+                <a href="#" class="clickable">
+                    <div class="options">
+                        <p id="option3"></p>
+                    </div>
+                </a>
+                <a href="#" class="clickable">
+                    <div class="options">
+                        <p id="option4"></p>
+                    </div>
+                </a>                
+            </div>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <p class="modalText" id="modalText"></p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="quiz.js"></script>
+</html>

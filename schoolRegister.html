@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>School registration</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> 
+        <nav>
+            <a href="landingPage.html"> <h1>Lumen <span> et Veritas</span></h1></a>
+            <div class="right">
+                <a href="#"><h3>About</h3></a>
+                <a href="#"><h3>Community</h3></a>            
+                <a href="#"><h3>Contact</h3></a>
+                <a href="schoolRegister.html"><button id="navRegister_schl">Register Your School</button></a>
+                <a href="studentRegister.html"><button id="navRegister_candidate">Register Candidate</button></a>
+                <a href="studentlogin.html"><button id="navLogin">Login</button></a>
+            </div>
+        </nav>
+    </header>    
+    <main>
+        
+        <div class="schoolRegisterDiv">
+            <h1>REGISTER YOUR SCHOOL</h1>
+            <form class="schoolRegister_Form">
+                <div class="field">
+                    <label>School Name</label>
+                    <input type="text" id="schoolName" value="" class="input_field">
+                    <span></span>
+                </div>
+                <div class="field">
+                    <label>School Email</label>
+                    <input type="email" id="schoolEmail" value="" class="input_field">
+                    <span></span>
+                </div>
+                <button id="registerSchoolBtn">Register</button>
+            </form>
+        </div>
+        <div id="modal" class="modal">
+            <div class="modal-content">
+              <span class="close">&times;</span>
+              <!-- <h2 id="modal-title">Modal Title</h2> -->
+              <p id="modalText"></p>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="schoolRegister.js"></script>
+</html>
